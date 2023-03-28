@@ -39,3 +39,5 @@ while 'continue' in data:
 # Export the user names as a plaintext file
 with open('user_names.txt', 'w') as f:
     f.write('\n'.join(user_names))
+
+print("Total users: ", l*5000)
